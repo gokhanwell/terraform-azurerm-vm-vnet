@@ -4,5 +4,6 @@ resource "azurerm_resource_group" "resource_group" {
   tags = {
     Name = "${var.rg_name}"
     Env = "dev"
+    Test = "version"
   }
 }
