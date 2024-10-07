@@ -3,5 +3,6 @@ resource "azurerm_resource_group" "resource_group" {
   location = var.rg_location
   tags = {
     Name = "${var.rg_name}"
+    Env = "dev"
   }
 }
